@@ -11,7 +11,9 @@ module.exports = {
         path: __dirname + '/public/scripts',
         filename: 'todo.bundle.js'
     },
-    plugins: [
-        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.bundle.js")
+   plugins: [
+        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.bundle.js"),
+        // don't forget the comma after the existing plugin
+        new webpack.OldWatchingPlugin()
     ]
 };
