@@ -1,14 +1,21 @@
 {
-  "name": "myisrae-mean",
+  "name": "mean-todo",
   "version": "1.0.0",
-  "description": "My take on a website for a non-profit ",
+  "description": "",
   "main": "src/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Michael Christy",
+  "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.10.2",
+    "webpack": "^1.13.2"
+  },
   "dependencies": {
-    "express": "^4.14.0"
+    "angular": "^1.5.8",
+    "body-parser": "1.15.2",
+    "mongoose": "4.6.2",
+    "nodemon": "^1.10.2"
   }
 }
