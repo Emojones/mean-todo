@@ -1,25 +1,104 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-  <title></title>
-  <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/styles/main.css" type="text/css">
+    <meta charset="utf-8">
+    <title>ISRAE</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="scripts/slick-1.6.0/slick/slick.css">
+    <link rel="stylesheet" href="scripts/slick-1.6.0/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body ng-app="todoListApp">
-  <ng-include src="'templates/navbar.html'"></ng-include>
-  <h1>My TODOs!</h1>
-
-  <div class="list" ng-controller="mainCtrl">
-    <div class="add">
-      <a href="#" ng-click="addTodo()">
-        + Add a New Task</a>
+<body>
+    <div class="main-navBar" id="sticker">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../html/about.html">About</a></li>
+                    <li><a href="../html/tours.html">Tours</a></li>
+                    <li>Media | Blogs</li>
+                    <li><a href="https://app.moonclerk.com/pay/pax9mi4c6vy">Donate</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
-    <todo></todo>
-  </div>
-  <script src="/scripts/vendor.bundle.js"></script>
-  <script src="/scripts/todo.bundle.js"></script>
+
+    <div class="header">
+        <h1>I.S.R.A.E.</h1>
+        <p>Institute for the Study of Religious and Anomalous Experience</p>
+    </div>
+
+
+
+    <div class="slides">
+        <div class="grid-half">
+            <img src="images/bridgewatercemetary.jpg" alt="bridgewatercemetary by Senecia Sherman" />
+        </div>
+
+        <div class="grid-half">
+            <img src="images/bridgewatercemetary.jpg" alt="bridgewatercemetary by Senecia Sherman" />
+        </div>
+
+        <div class="grid-half">
+            <img src="images/bridgewatercemetary.jpg" alt="bridgewatercemetary by Senecia Sherman" />
+        </div>
+
+        <div class="grid-half">
+            <img src="images/bridgewatercemetary.jpg" alt="bridgewatercemetary by Senecia Sherman" />
+        </div>
+    </div>
+
+
+    <div class="missStatement">
+        <p class="missionTitle">Our Mission Statement</p>
+        <p>ISRAE is dedicated to the scientific research of religious and anomalous experiences while providing community education on religion and anomalous phenomena through public lectures and presentations, as well as work experience through internships and volunteerism.</p>
+    </div>
+
+    <div class="bubbles">
+        <div class="">
+            <a href="html/about.html">
+                <img src="images/dummychair.jpg" alt="Senecia Sherman" />
+                <p>These studies are either currently in review, or currently being conducted by ISRAE. Be on the look out for their publication announcement by checking back with us monthly!</p>
+            </a>
+        </div>
+
+        <div class="">
+            <a href="html/about.html">
+                <img src="images/dummychair.jpg" alt="Senecia Sherman" />
+            </a>
+            <p>Looking for qualified research studies? Look no further! These studies have been published in scholarly peer-reviewed journals. Click on the links to read the full study in it's respective journal!</p>
+        </div>
+
+        <div class="">
+            <a href="html/about.html">
+                <img src="images/dummychair.jpg" alt="Senecia Sherman" />
+            </a>
+            <p>ISRAE has been featured in the media! See what is being said about our organization.</p>
+        </div>
+
+    </div>
+
+    <div class="joinUs">
+        <p>We're accepting new members! click here to learn more</p>
+        <a href="html/join.html"><button>Join ISRAE</button></a>
+    </div>
+
+    <footer>
+        <a href="http://www.twitter.com">
+            <img src="images/twitter-wrap.png" alt="Twitter Logo" class="social-icon">
+        </a>
+        <a href="http://www.facebook.com">
+            <img src="images/facebook-wrap.png" alt="Facebook Logo" class="social-icon">
+        </a>
+        <p>©2016 All Rights Reserved</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="scripts/slick-1.6.0/slick/slick.js"></script>
+    <script src="scripts/garand-sticky-8d501be/jquery.sticky.js"></script>
+    <script src="scripts/app.js"></script>
 </body>
 
 </html>
